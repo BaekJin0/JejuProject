@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+    session:
+      timeout: 30
+
+spring:
+  output:
+    ansi:
+      enabled: always
+
